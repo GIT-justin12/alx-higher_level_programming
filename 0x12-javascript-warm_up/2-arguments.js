@@ -1,6 +1,6 @@
 !#/usr/bin/node
 
-const lengthOfArgs = progress.argv.length;
+const lengthOfArgs = process.argv.length;
 
 if (lengthOfArgs === 2){
 	console.log('No argument');
